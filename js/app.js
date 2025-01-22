@@ -11,6 +11,6 @@ submit.addEventListener("click", (e) => {
     userName.style.border = "1px solid gray";
     error.style.display = "none";
     const nameOfUser = userName.value.replace(/ی/gi, "ي");
-     location.href = `https://vroom.shirazu.ac.ir/elmi23?guestname=${nameOfUser}`;
+     location.href = `https://live3.pentaserver.ir/tabatabaei?guestname=${nameOfUser}&html-view=true`;
   }
 });
